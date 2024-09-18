@@ -23,21 +23,21 @@ nav{
     justify-content: space-between;
     height: 80px;
 }
-nav a.logo{
+.logo{
     font-size: 33px;
     color: #0f2182;
     font-weight: 600;
 }
-nav .links a:not(:last-child){
+.links a:not(:last-child){
     margin-right: 20px;
 }
-nav .login button{
+.login-btn{
     padding: 8px 14px;
     border: none;
     cursor: pointer;
     background-color: transparent;
 }
-nav .login button.signup{
+.signup-btn{
     background-color: #000;
     color: #fff;
     border-radius: 4px;
@@ -50,20 +50,20 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header .left{
+.left{
     width: 700px;
 }
-header .left h1{
+.left h1{
     font-size: 80px;
 }
-header .left h1 span{
+.left h1 span{
     color: #0f2182;
 }
-header .left p{
+.left p{
     margin: 40px 0;
     color: #777;
 }
-header .left a{
+.left a{
     display: flex;
     align-items: center;
     background: #000;
@@ -71,20 +71,20 @@ header .left a{
     padding: 8px;
     border-radius: 60px;
 }
-header .left a i{
+.left a i{
     background-color: #fff;
     font-size: 24px;
     border-radius: 50%;
     padding: 8px;
 }
-header .left span{
+.left span{
     color: #fff;
     margin-left: 10px;
 }
 header img{
     width: 600px;
 }
-h2.separator{
+.separator{
     padding: 0 80px;
     font-size: 40px;
     margin-top: 40px;
@@ -97,140 +97,94 @@ h2.separator{
     gap: 30px;
 }
 /*start*/
-.sell-nft .item1{
+ .item{
     padding: 20px;
     background: #fff;
     border-radius: 18px;
     box-shadow: 0 50px 80px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    margin: 1rem 80px;
 }
-.sell-nft .item1:hover{
-    box-shadow: none;
-}
-.sell-nft .item2{
-    padding: 20px;
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-.sell-nft .item2:hover{
-    box-shadow: none;
-}
-.sell-nft .item3{
-    padding: 20px;
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-.sell-nft .item3:hover{
+.item:hover{
     box-shadow: none;
 }
 
-.sell-nft .item1 .header{
+.header{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.sell-nft .item2 .header{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.sell-nft .item3 .header{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.sell-nft .item1 .header i{
+.header i{
     font-size: 40px;
 }
-.sell-nft .item2 .header i{
-    font-size: 40px;
-}
-.sell-nft .item3 .header i{
-    font-size: 40px;
-}
-.sell-nft .item1 .header h5{
+
+.header h5{
     font-size: 17px;
 }
-.sell-nft .item2 .header h5{
-    font-size: 17px;
-}
-.sell-nft .item3 .header h5{
-    font-size: 17px;
-}
-.sell-nft .item1 p{
+
+.item p{
     margin-top: 10px;
     padding: 0 4px;
 }
-.sell-nft .item2 p{
-    margin-top: 10px;
-    padding: 0 4px;
-}
-.sell-nft .item3 p{
-    margin-top: 10px;
-    padding: 0 4px;
-}
+
 /*end*/
 .nft-shop{
     padding: 0 80px;
     margin-top: 30px;
 }
-.nft-shop .category{
+.category{
     display: flex;
     gap: 14px;
 }
-.nft-shop .category a{
+.category a{
     background-color: #dfdcdc;
     padding: 8px 14px;
     font-size: 15px;
     border-radius: 14px;
     transition: all 0.3s ease;
 }
-.nft-shop .category a:hover{
+.category a:hover{
     color: #fff;
     background-color: #0f2182;
 }
-.nft-shop .nft-list{
+.nft-list{
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.nft-shop .nft-list .item{
+.item{
     padding: 20px;
     background: #fff;
     border-radius: 18px;
     box-shadow: 0 50px 80px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-.nft-shop .nft-list .item:hover{
+.item:hover{
     box-shadow: none;
 }
-.nft-shop .nft-list .item img{
+.item img{
     width: 280px;
     height: 280px;
     border-radius: 18px;
 }
-.nft-shop .nft-list .item .info{
+.info{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     padding: 12px 0;
     border-bottom: 1px solid #edeced;
 }
-.nft-shop .nft-list .item .info h5{
+.info h5{
     font-size: 18px;
 }
-.nft-shop .nft-list .item .info .btc{
+.btc{
     margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.nft-shop .nft-list .item .info .btc i{
+.btc i{
     font-size: 22px;
     color: #304ffe;
 }
